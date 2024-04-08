@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply max-w-md mx-auto bg-orange-100
+}
+h1 {
+    @apply text-2xl px-3 mx-auto w-[95%] pt-16 font-bold text-left
+}
+h2 {
+    @apply text-xl mx-auto font-bold text-left
+}
+.btn {
+    @apply py-2 rounded outline-none
+}
+.description {
+    @apply w-[95%] mx-auto px-3 mt-5 text-left
+}
