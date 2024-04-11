@@ -1,5 +1,5 @@
 import React from 'react'
-import vanImage from '../media/product1.png'
+// import vanImage from '../media/product1.png'
 import ExploreButton from './ExploreButton'
 const VanCard = ({type, vanName, image}) => {
     const buttonStyle = {
