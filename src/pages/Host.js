@@ -11,14 +11,14 @@ import Reviews from '../components/Reviews'
 const Host = () => {
   return (
     <>
-        <HostNavBar style="font-semibold"/>
+        <HostNavBar style="sticky top-0"/>
         <Routes>
           <Route path='/dashboard'element={<Dashboard/>}/>
           <Route path='/income'element={<Income/>}/>
           <Route path='/vans'element={<HostVan/>}/>
           <Route path='/reviews'element={<Reviews/>}/>
         </Routes>
-        <form className='p-3' action='/user/host' method='POST'>
+        {/* <form className='p-3' action='/user/host' method='POST'>
           <input type="text" placeholder='Van name' className='w-full mb-2 p-2'></input>
           <select className='mb-2'>
             <option>Categories</option>
@@ -30,7 +30,7 @@ const Host = () => {
           <input type='text' placeholder='Price per hour' className='w-full mb-2 p-2'></input>
           <input type='file' placeholder='Upload the van image' className='w-full mb-2 p-2 '></input>
           <button type='submit' className='btn bg-black text-white px-3 mx-center hover:bg-black/90'>Get Host</button>
-        </form>
+        </form> */}
     </>
   )
 }

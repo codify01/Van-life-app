@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-const HostNavBar = ({}) => {
+const HostNavBar = ({style}) => {
     const location = useLocation()
     const isDashboard = location.pathname === "/host/dashboard"
     const isIncome = location.pathname === "/host/income"
@@ -8,7 +8,7 @@ const HostNavBar = ({}) => {
     const isReveiws = location.pathname === "/host/reviews"
   return (
     <>
-        <div className=' bg-white py-5 px-3'>
+        <div className= {`bg-white py-5 px-3 sticky top-0`}>
         
             <ul className='flex gap-4'>
                 <Link to="/host/dashboard">

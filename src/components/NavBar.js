@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <>
-        <nav className='container mx-auto bg-white py-5 flex justify-between items-center px-4 '> 
+        <nav className='container mx-auto bg-white py-5 flex justify-between items-center px-4'> 
         <Link to='/'><img src={logo} alt='logo' className='w-[30%] object-contain' /></Link>
             <ul className='flex gap-4 items-center'>
                <Link to='/host'> <li className={isHost || isHostIncome || isHostReveiw || isHostVan?`font-semibold underline underline-offset-4`:`hover:underline hover:font-semibold underline-offset-4`}>Host</li></Link>
