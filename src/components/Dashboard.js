@@ -33,7 +33,7 @@ const Dashboard = () => {
                     <p className='font-medium'>Details</p>
                 </div>
             </div>
-            <ListedVan dashboardStyle="text-lg font-semibold"/>
+            <ListedVan dashboardStyle="text-lg font-semibold" location="/host/vans"/>
         </div>
         <div className='static'>
             <EachListedVan name="Modern Explorer" price="$60/day" image={product1}/>
